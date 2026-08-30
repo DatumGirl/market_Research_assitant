@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.cache/
+# Generated runs are ignored; the committed sample output is not.
+outputs/*
+!outputs/sample_*/
+.DS_Store

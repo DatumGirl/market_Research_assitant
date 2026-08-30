@@ -1,0 +1,21 @@
+{
+  "results": {
+    "web": [
+      {
+        "title": "Acme homepage",
+        "url": "https://acme.example.com",
+        "snippets": ["Acme builds collaboration software."],
+        "page_age": "2026-02-01T00:00:00"
+      }
+    ],
+    "news": [
+      {
+        "title": "Acme raises $50M Series C",
+        "url": "https://news.example.com/acme-series-c",
+        "description": "Acme announced a $50M Series C led by Example Ventures.",
+        "page_age": "2026-06-10T14:30:00"
+      }
+    ]
+  },
+  "metadata": {"query": "Acme", "latency": 0.19}
+}

@@ -1,0 +1,30 @@
+{
+  "results": {
+    "web": [
+      {
+        "title": "Acme Corp Pricing — Plans & Costs",
+        "url": "https://acme.example.com/pricing",
+        "description": "Pricing overview.",
+        "snippets": ["Starter is $12 per user per month. Pro is $24 per user per month with SSO."],
+        "page_age": "2026-03-01T10:22:00"
+      },
+      {
+        "title": "Acme vs Globex comparison",
+        "url": "https://reviews.example.com/acme-vs-globex?ref=nav",
+        "description": "Acme targets mid-market teams while Globex focuses on enterprise.",
+        "page_age": "2026-01-15T08:00:00"
+      },
+      {
+        "title": "No URL entry",
+        "snippets": ["This should be discarded because it has no url."]
+      },
+      {
+        "title": "Empty snippet entry",
+        "url": "https://example.com/empty",
+        "snippets": []
+      }
+    ],
+    "news": []
+  },
+  "metadata": {"query": "acme pricing", "latency": 0.21}
+}
